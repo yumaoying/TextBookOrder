@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+@import url("stylesheet.css");
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background-image: url(../img/backO.png);
+	background-repeat: repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+/*.ind .ind_a{
+	background: url(img/indexButtom.png) no-repeat center center;
+	background-size: cover;
+}*/
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1200px;
+}
+
+.bb .pay {
+	overflow-y: scroll;
+	height: 800px;
+	width: auto;
+	margin-top: 50px;
+	text-align: left;
+	line-height: 150px;
+}
+
+.bb .pay h3 { /*支付方式的提示*/
+	height: 70px;
+	margin: 0px auto;
+	color: red;
+	font-size: 25px;
+	line-height: 70px;
+	margin-top: 50px;
+	text-align:center;
+}
+
+.bb .pay p {
+	height: 60px;
+	margin:0px auto;
+	line-height: 60px;
+	text-align:center;
+}
+
+.bb .pay input {
+	height: 30px;
+	width: 300px;
+}
+
+.bb .pay .isNE { /*单选按钮*/
+	width: 20px;
+	height: 20px;
+	margin-top: 30px;
+}
+
+.bb .pay .pay_sub { /*提交按纽*/
+	width: 150px;
+	height: 40px;
+	font-size: 24px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}

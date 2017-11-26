@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+.ind {
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	overflow: hidden;
+	background-color: rgb(20, 68, 106);;
+	background-repeat: repeat-x;
+	font-family: "weiTi";
+	font-size: 22px;
+	text-align:center;
+}
+
+.ind ul {
+	width: 998px;
+	height: 65px;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.ind ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0px;
+	width:auto;
+	height: 65px;
+	line-height: 65px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.ind a {
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+}
+
+.ind ul li img {
+	width: 65px;
+	height: 65px;
+}

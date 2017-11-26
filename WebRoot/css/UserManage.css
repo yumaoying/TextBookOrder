@@ -1,0 +1,110 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+	background-color: rgba(51, 204, 51, 0.6);
+	background: url(../img/backO.png)  repeat;
+//	background-image: url(../img/backO.png);
+//	background-repeat: no-repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+/*用户信息管理开始*/
+.usrM {
+	width: 80%;
+	height: 100%;
+	margin-left: 8%;
+	margin-right: 2%;
+	margin-top: 70px;
+	overflow: hidden;
+	font-family: "kaiTi";
+}
+.usrM  h3 {
+	color: red;
+	margin:10px auto;
+	margin-left: 13%;
+	height: 35px;
+	width: 300px;
+	line-height: 35px;
+	border: 1px solid red;
+	border-radius: 5px;
+	font-weight: none;
+}
+.usrM  h3 font{
+	font-size:15px;
+	color:black;
+	margin-left:10px;
+}
+.usrM div {
+	height: 80%;
+}
+.usrM form{
+	height:90%;
+	margin-bottom:0px;
+}
+.usrM form p {
+	height: 7.5%;
+	font-size: 22px;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 25%;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	vertical-align:middle;
+}
+.usrM p img{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin-left:5px;
+}
+.usrM  form  input { /*用户信息输入框*/
+	margin-left: 80px;
+	width: 40%;
+	height: 25px;
+}
+
+.usrM .LoginI { /*单选框*/
+	width: 15px;
+	height: 15px;
+	margin-left:70px;
+}
+
+.usrM form .email {
+	margin-left: 80px;
+}
+.usrM .lq_s{
+	height:30px;
+}
+.usrM .lq_s input{ /*修改用户信息提交按钮*/
+	width: 150px;
+	height: 25px;
+	border: 1px red solid;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-left: 13%;
+	font-size: 20px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}
+/*用户信息管理样式结束*/

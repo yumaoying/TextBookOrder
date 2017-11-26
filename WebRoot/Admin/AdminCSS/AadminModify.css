@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+@import url("../../css/stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-crack-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+.bb {
+	top: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1080px;
+	top: 0px;
+}
+
+.adMod {
+	width: 76%;
+	height: 880px;
+	margin-left: 20%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-top: 75px;
+}
+
+.adMod h2 {
+	border: 1px solid red;
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.adMod h2 font{
+	font-size:15px;
+	color:red;
+	margin-left:10px;
+}
+.adMod hr { /*注册信息下的一条水平线*/
+	border: 1px dashed red;
+}
+
+.adMod form {
+	height: 800px;
+}
+
+.adMod form p {
+	margin-left: 10%;
+	height: auto;
+	padding:3px 0px 20px 0px;
+	margin:0px auto;
+	text-align:center;
+}
+
+.adMod form input { /*所有文本框的选项*/
+	width: 220px;
+	height: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+.adMod .admin_s {
+	width: auto;
+}
+
+.adMod .admin_s input { /*提交按钮样式*/
+	width: 200px;
+	height: 35px;
+	margin-top: 0px;
+	font-size: 20px;
+	margin-left:-5%;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}

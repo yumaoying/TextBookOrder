@@ -1,0 +1,72 @@
+@import url("../../css/stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.bb {
+	top: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1080px;
+	top: 0px;
+}
+
+.bFtea {
+	width: 76%;
+	height: 880px;
+	margin-left: 20%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-top: 75px;
+}
+.bFtea p{
+	margin-top:10px;
+	margin-bottom:0px;
+}

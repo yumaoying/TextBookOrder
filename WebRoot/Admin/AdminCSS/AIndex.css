@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+@import url("../../css/stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow:hidden;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+/*后台右侧主体部分开始*/
+.bb {
+	width: 76%;
+	height: 90%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20%;
+	margin-right: 20px;
+	position: absolute;
+	margin-top: 70px;
+	font-family: "kaiTi";
+}
+
+.bmain {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.notRead, .haveRead, .dealed {
+	height: 25%;
+	overflow-y: scroll;
+}
+
+.bmain p {/*消息中心四个字样式*/
+	width: 200px;
+	height: 30px;
+	line-height: 40px;
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.bmain table {
+	width: 100%;
+}
+
+.bmain table th {
+	text-align: left;
+	padding:0px 3px 0px 3px;
+}
+
+.bmain table th a {
+	/*每个消息盒子中的更多消息*/
+	font-weight: bold;
+	color: red;
+}
+
+.bmain table td { /*所有消息占用的行高*/
+	height: auto;
+	padding:0px 3px 0px 3px;
+}
+.bmain .RT{
+	width:auto;
+}
+.bmain  .RO, .RTh, .RF {
+	width: auto;
+}
+/*后台右侧主体部分结束*/

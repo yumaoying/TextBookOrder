@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+	font-family: "kaiTi";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background-image: url(../img/backO.png);
+	background-repeat: repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+/*订单提交成功开始*/
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 2200px;
+}
+
+.bb form {
+	width: 90%;
+	margin-left: 5%;
+	height: 700px;
+	text-align: center;
+}
+
+.bb form .dd_ts { /*订单消息提示*/
+	margin-top: 22%;
+	font-size: 26px;
+}
+
+.bb form input {
+	margin-top: 10%;
+	width: 200px;
+	height: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px groove blue;
+	border-radius: 5px;
+	font-size: 20px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}
+/*订单提交失败页面管理样式结束*/

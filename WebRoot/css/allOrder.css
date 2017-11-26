@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+	font-family: "kaiTi";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background: url(../img/backO.png)  repeat;
+//	background-image: url(../img/backO.png);
+	//background-repeat: no-repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	position: relative;
+	margin-top: 100px;
+	font-family: "kaiTi";
+	color: black;
+}
+/*左侧所有订单选项*/
+.bb .left_nav {
+	width: 15%;
+	position: fixed;
+	text-align: right;
+	overflow: hidden;
+}
+
+.bb .left_nav p {
+	margin-top: 10px;
+	right: 5%;
+	width: 79%;
+	height: 39px;
+	line-height: 39px;
+	margin-left: 19%;
+	font-size: 25px;
+	color: red;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.bb .left_nav ul {
+	height: 900px;
+	width: 80%;
+	margin-top: 10px;
+}
+
+.bb .left_nav ul li {
+	height: 45px;
+	line-height: 45px;
+	font-size: 20px;
+	margin-right: 10%;
+	right: 0px;
+}
+
+.bb .left_nav ul li a {
+	color: black;
+}
+/*左侧所有订单选项结束*/
+
+/*订单信息表格样式开始*/
+.main {
+	overflow-y: scroll;
+	float: left;
+}
+
+.main {
+	margin-left: 17%;
+	width: 77%;
+	left: 17%;
+	top: 0px;
+	height: 77%;
+	overflow: scroll;
+}
+
+.main table {
+	text-align: center;
+	width: 99%;
+	margin-left: 5px;
+	border-top: 2px solid yellow;
+	border-bottom: 2px solid yellow;
+}
+
+.main table th {
+	border-bottom: 1px solid red;
+	height: 34px;
+	font-size: 22px;
+}
+
+.main table td {
+	font-size: 24px;
+	padding: 3px;
+}
+
+.main table a {
+	color: black;
+}
+
+.main table a:hover {
+	color: blue;
+	font-weight: bold;
+}
+
+.main table .alO_Z { /*表格第一列*/
+	width: auto;
+}
+
+.main table .alO_O { /*表格第二列*/
+	
+}
+
+.main table .alO_T { /*表格第三列*/
+	
+}
+
+.main table .alO_Th { /*表格第四列*/
+	
+}
+
+.main table .alO_F { /*表格第五列*/
+	
+}
+
+.main table .alO_Fi { /*表格第六列*/
+	border-right: 0px;
+}
+/*订单信息表格样式结束*/
+#shoppping { /*购物车按钮*/
+	position: fixed;
+	right: 5px;
+	bottom: 10%;
+	width: 40px;
+	height: 40px;
+	cursor:pointer;
+}

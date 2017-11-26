@@ -1,0 +1,214 @@
+@CHARSET "UTF-8";
+
+@import url("../../css/stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-crack-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.bb {
+	top: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1080px;
+	top: 0px;
+}
+
+.bFtea {
+	width: 76%;
+	height: 880px;
+	margin-left: 20%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-top: 70px;
+	font-size:19px;
+}
+
+.bFtea p {
+	/*消息中心四个字样式*/
+	width: auto;
+	height: 35px;
+	line-height: 35px;
+	font-size: 19px;
+	color: red;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	margin-top:0px;
+}
+
+.bFtea img {
+	vertical-align: middle;
+}
+
+.bFtea p a { /*添加会员超链接*/
+	margin-left: 15%;
+	font-size:17px;
+}
+
+.bFtea .searHy { /*查询条件区域*/
+	height: 74px;
+	width: auto;
+	line-height: 28px;
+	margin-left: 1%;
+	font-size:17px;
+}
+
+.bFtea .searHy p {
+	height: 40px;
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.bFtea .searHy p input {
+	height: 24px;
+	width: 150px;
+	vertical-align: middle;
+}
+.bFtea .ahyTJ{
+	height：20px;
+	font-size:17px;
+	border:0px auto;
+}
+.bFtea .searHy .group { /*查询条件的div*/
+	width: 900px;
+	text-align: left;
+	margin-top: 5px;
+	font-size: 17px;
+	height: 35px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+
+.bFtea .searHy .group .find { /*查询条件的四个单选按钮*/
+	margin-left: 25px;
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+}
+
+.bFtea .searHy .group .findOne { /*查询条件的四个单选按钮中的第一个*/
+	margin-left: 0px;
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+}
+
+.bFtea .searHy .sub { /*提交查询条件按钮*/
+	margin-left: 10px;
+	width: 80px;
+	height: 25px;
+	font-size: 18px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.bFtea .hyRes { /*查询结果显示的div*/
+	width: 99%;
+	height: 50%;
+	margin-left: 0px;
+	margin-bottom: 2%;
+	margin-top: 5px;
+	overflow: scroll;
+	font-family: "kaiTi";
+	font-size: 20px;
+}
+
+.bFtea .hyRes table {
+	width: 100%;
+	text-align: center;
+	border: 2px solid green;
+}
+
+.bFtea .hyRes table th {
+	text-align: center;
+	height: 30px;
+}
+
+.bFtea .hyRes table th a {
+	/*每个消息盒子中的更多消息*/
+	font-weight: bold;
+	color: red;
+}
+
+.bFtea .hyRes table td {
+	font-size:17px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.bFtea .hyRes table .hyZ { /*表格第一列*/
+	width: auto;
+}
+
+.bFtea .hyRes table .hyO { /*表格第二列*/
+	width: auto;
+}
+
+.bFtea .hyRes table .hyT { /*表格第三列*/
+	width: auto;
+}
+
+.bFtea .hyRes table .hyTh { /*表格第四列*/
+	width: auto;
+}
+
+.bFtea .hyRes table .hyF { /*表格第五列*/
+	width: auto;
+}
+
+.bFtea .hyRes table .hyFi { /*表格第六列*/
+	width: 7%;
+}
+
+.bFtea .hyRes table .hyS { /*表格第七列*/
+	width: 7%;
+}

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BaseServlet</servlet-name>
+    <servlet-class>com.textbookorder.tools.servlet.BaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookClassServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.BookClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TextBookServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.TextBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminBookClassServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminBookClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminTextBookServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminTextBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTextbookAervlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AddTextbookAervlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminStoreSevrlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminStoreSevrlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUserServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminComeServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminComeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadPicture</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.UpLoadPicture</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyCarServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.BuyCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminOrderServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLackServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminLackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBookServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.GetBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminGetbookServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminGetbookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminOutServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MemberServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.MemberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminWaitBuyBookServlet</servlet-name>
+    <servlet-class>com.textbookorder.servlet.admin.AdminWaitBuyBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ValidCodeServlet</servlet-name>
+    <servlet-class>com.textbookorder.tools.servlet.ValidCodeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BaseServlet</servlet-name>
+    <url-pattern>/BaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookClassServlet</servlet-name>
+    <url-pattern>/BookClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TextBookServlet</servlet-name>
+    <url-pattern>/TextBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminBookClassServlet</servlet-name>
+    <url-pattern>/admin/AdminBookClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminTextBookServlet</servlet-name>
+    <url-pattern>/admin/AdminTextBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTextbookAervlet</servlet-name>
+    <url-pattern>/admin/AddTextbookAervlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminStoreSevrlet</servlet-name>
+    <url-pattern>/admin/AdminStoreSevrlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUserServlet</servlet-name>
+    <url-pattern>/admin/AdminUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminComeServlet</servlet-name>
+    <url-pattern>/admin/AdminComeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadPicture</servlet-name>
+    <url-pattern>/admin/UpLoadPicture</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyCarServlet</servlet-name>
+    <url-pattern>/BuyCarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminOrderServlet</servlet-name>
+    <url-pattern>/admin/AdminOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLackServlet</servlet-name>
+    <url-pattern>/admin/AdminLackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBookServlet</servlet-name>
+    <url-pattern>/GetBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminGetbookServlet</servlet-name>
+    <url-pattern>/admin/AdminGetbookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminOutServlet</servlet-name>
+    <url-pattern>/admin/AdminOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MemberServlet</servlet-name>
+    <url-pattern>/admin/MemberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminWaitBuyBookServlet</servlet-name>
+    <url-pattern>/admin/AdminWaitBuyBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ValidCodeServlet</servlet-name>
+    <url-pattern>/ValidCodeServlet</url-pattern>
+  </servlet-mapping>	
+  
+  <welcome-file-list>
+    <welcome-file>welcome.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+      <filter-name>EncodingFilter</filter-name>
+      <filter-class>com.textbookorder.filter.EncodingFilter</filter-class>
+      <init-param>
+              <param-name>charset</param-name>
+              <param-value>UTF-8</param-value>
+      </init-param>
+  </filter>
+<filter-mapping>
+         <filter-name>EncodingFilter</filter-name>
+         <url-pattern>/*</url-pattern>
+</filter-mapping>
+</web-app>

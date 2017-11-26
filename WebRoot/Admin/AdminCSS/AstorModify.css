@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+@import url("../../css/stylesheet.css");
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+
+li {
+	margin: 10px;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.stor {
+	width: auto;
+	height: 916px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 300px;
+	margin-top: 80px;
+}
+
+.storMain p {
+	/*库存信息修改样式*/
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: red;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+}
+.stor hr{
+	margin-top:3px;
+	margin-bottom:3px;
+	width:96%;
+}
+
+.icon {
+	margin:20px;
+	width: 400px;
+	height: 380px;
+	text-align: center;
+	right:2%;
+}
+
+.icon img{
+	width:200px;
+	height:200px;
+	margin-bottom:20px;
+	border: solid 2px gray;
+}
+
+.stor .storM .modPic{
+	float:right;
+	position:absolute;
+	width: auto;
+	height: auto;
+	text-align:center;
+}
+
+.stor .storM .modPic input{/*按钮*/
+	margin:7px 0px 0px 0px;
+}
+.stor .storM .modPic .sub{/*提交修改图片按钮*/
+	margin:7px 0px 0px 0px;
+	width:100px;
+	height:25px;
+	font-size:15px;
+	border: 1px solid blue;
+	border-radius: 5px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}
+.stor .storM{
+	width: 96%;
+	height: 600px;
+	margin-left: 1%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position:relative;
+}
+.stor .storM .icon{
+	float:right;
+	margin-top:100px;
+}
+.stor .storM input,select,textarea{
+	margin-top:3px;
+	margin-bottom:3px;
+	margin-left:50px;
+}
+.stor .storM select{
+	margin-left:40px;
+}
+
+.stor .storM form{
+	width:70%;
+}
+.stor .storM .form1{
+	margin-left:13%;
+}
+
+.stor .storM .form1 .sub{
+	margin-top:10px;
+	width:100px;
+	height:24px;
+	font-size:17px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}

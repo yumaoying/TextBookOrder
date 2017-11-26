@@ -1,0 +1,194 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li {
+	list-style-type: none;
+}
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-crack-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+.bb {
+	top: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1080px;
+	top: 0px;
+}
+
+/*注册信息开始*/
+.hyMod {
+	width: 76%;
+	height: 880px;
+	margin-left: 20%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-top: 75px;
+}
+
+.hyMod h2 {
+	border: 1px solid red;
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.hyMod h2 font{
+	font-size:15px;
+	color:red;
+	margin-left:10px;
+}
+.hyMod hr { /*注册信息下的一条水平线*/
+	border: 1px dashed red;
+}
+
+.hyMod form {
+	height: 800px;
+}
+
+.hyMod form p {
+	margin-left: 10%;
+	height: auto;
+	padding:3px 0px 3px 0px;
+	margin:0px auto;
+	text-align:center;
+}
+
+.hyMod form input { /*所有文本框的选项*/
+	width: 220px;
+	height: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+}
+
+.hyMod .hy_iden {
+	height: 110px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: -15px;
+}
+
+.hy_iden .l_wrap { /*左边的操作权限*/
+	width: 150px;
+	height: 100px;
+	line-height: 140px;
+	float: left;
+	margin-left: 30%;
+	margin-right: 60px;
+}
+
+.hy_iden .wrap { /*右边的*/
+	width: 600px;
+	height: 100px;
+	margin-top: 50px;
+	float: left;
+}
+
+.A_right {
+	display: none;
+	margin-top: 10px;
+}
+
+.A_right+label {
+	background-color: #FFF;
+	border: 1px solid #C1CACA;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05);
+	padding: 9px;
+	border-radius: 5px;
+	display: inline-block;
+	position: relative;
+	margin-right: 30px;
+}
+
+.A_right+label:active {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px
+		rgba(0, 0, 0, 0.1);
+}
+
+.A_right:checked+label {
+	background-color: #ECF2F7;
+	border: 1px solid #92A1AC;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+	color: #243441;
+	margin-bottom: 20px;
+}
+
+.A_right:checked+label:after {
+	content: '\2714';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #758794;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 1px 0 0 0;
+	vertical-align: text-top;
+}
+
+.hyMod .admin_s {
+	text-align: center;;
+	margin-top:10px;
+	width: auto;
+}
+
+.hyMod .admin_s input { /*提交按钮样式*/
+	width: 120px;
+	height: 30px;
+	margin-top: 0px;
+	font-size: 20px;
+	margin-left:-4%;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}

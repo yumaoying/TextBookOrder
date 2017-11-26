@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+@import url("../../css/stylesheet.css");
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.qsd{
+	top: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1080px;
+	top: 0px;
+}
+.tsxx a{
+	margin-left:19%;
+}
+.tsxx a:hover{
+	font-weight:bold;
+	color:red;
+}
+.qsd .qsdTJ{/*缺书单查询条件*/
+	
+}
+.qsdTJ {
+	width: 100%;
+	height: 65px;
+	overflow: hidden;
+}
+
+.qsdTJ form {
+	
+}
+
+.qsdTJ form h3 {
+	height:auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.qsdTJ form p {
+	width: 100%;
+	line-height: 35px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	overflow: hidden;
+	vertical-align:center;
+}
+
+.qsdTJ form  input {
+	margin-left: 3px;
+	margin-right: 10px;
+	width: 140px;
+	vertical-align:center;
+}
+
+.qsdTJ .lq_s {/*查询按钮*/
+	width: 100px;
+	height: 25px;
+	border: 1px solid blue;
+	font-size:19px;
+	margin-left:100px;
+	border-radius: 5px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}
+
+/*查询条件结束*/
+
+.qsd .qsdM{/*缺书单查询结果显示*/
+	width: 76%;
+	height: 590px;
+	margin-left: 20%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-top: 70px;
+	font-size:19px;
+}
+
+.qsdM p {
+	/*消息中心四个字样式*/
+	width: auto;
+	line-height: 40px;
+	font-size: 22px;
+	color: red;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+}
+
+.qsdM hr{
+	margin-top:0px;
+	margin-bottom:5px;
+	width:100%;
+}
+
+.qsdM .qsdInfo {/*缺书单信息开始*/
+	height: 530px;
+	width: 100%;
+	line-height: 28px;
+	margin-left: 1%;
+	overflow-y: scroll;
+	margin-top:10px;
+}
+
+.qsdM .qsdInfo table{
+	width:99%;
+	text-align:center;
+	border:1px solid red;
+	word-break: break-all;
+	word-wrap: break-word;
+	
+}
+
+.qsdM .qsdInfo table td{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.qsdM .qsdInfo table a{
+	color:black;
+	font-weight:bold;
+}
+.qsdM .qsdInfo table a:hover{
+	color:red;
+}

@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+	font-family: "kaiTi";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background-image: url(../img/backO.png);
+	background-repeat: repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	font-family: "kaiTi";
+}
+.bb h2 {
+	border: 1px solid red;
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	margin-left: 11%;
+	margin-top: 72px;
+	margin-bottom: 5px;
+}
+.bb h2 font {
+	font-size: 17px;
+	color: red;
+	margin-left: 15px;
+}
+
+.reg_inform {
+	width: 92%;
+	float: left;
+	height: 77%;
+	margin-left: 6%;
+	
+	overflow-y: scroll;
+}
+
+
+
+
+.reg_inform hr { /*添加教师信息块的分割线*/
+	width: 87%;
+	color: yellow;
+	margin-left: 5%;
+}
+
+.reg_inform .reg_m, .reg_p {
+	width: auto;
+	height: 120px;
+}
+
+.reg_m, .reg_p, .reg_o {
+	overflow: hidden;
+}
+
+.reg_inform .reg_m { /*必填信息样式开始*/
+	position: relative;
+	height: 120px;
+	width: 100%;
+}
+
+.reg_inform .reg_m .r_left {
+	width: 20%;
+	height: 90%;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 100px;
+	border: 1px solid red;
+	margin-left: 10%;
+	font-size: 24px;
+}
+
+.reg_inform .reg_m .r_right {
+	float: left;
+	margin-left: 46%;
+	top: -5px;
+	width: 59%;
+	height: 98%;
+	overflow-x: hidden;
+}
+
+.reg_inform .reg_m input { /*必填信息中的输入框*/
+	height: 30px;
+	width: 40%;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.reg_inform .reg_m .r_right {
+	position: absolute
+} /*必填信息结束*/
+.reg_inform .reg_p { /*密码信息开始*/
+	position: relative;
+	height: 120px;
+	width: 100%;
+}
+
+.reg_inform .reg_p .r_left {
+	width: 20%;
+	height: 90%;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 100px;
+	border: 1px solid red;
+	margin-left: 10%;
+	font-size: 24px;
+}
+
+.reg_inform .reg_p .r_right {
+	float: left;
+	margin-left: 46%;
+	top: -5px;
+	width: 59%;
+	height: 98%;
+	overflow-x: hidden;
+}
+
+.reg_inform .reg_p input { /*密码信息中的输入框*/
+	height: 30px;
+	width: 40%;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.reg_inform .reg_p .r_right {
+	position: absolute
+} /*密码信息结束*/
+.reg_inform .reg_o { /*其他信息开始*/
+	position: relative;
+	height: 330px;
+	width: 100%;
+}
+
+.reg_inform .reg_o .r_left {
+	width: 20%;
+	height: 40%;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 130px;
+	border: 1px solid red;
+	margin-left: 10%;
+	font-size: 24px;
+}
+
+.reg_inform .reg_o .r_right {
+	float: left;
+	margin-left: 46%;
+	top: -5px;
+	width: 59%;
+	height: 98%;
+	overflow-x: hidden;
+}
+
+.reg_inform .reg_o input { /*其他信息中的输入框*/
+	height: 30px;
+	width: 40%;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.reg_inform .reg_o .regInti { /*注册身份中的单选按钮样式*/
+	height: 14px;
+	width: 14px;
+	margin-right: 10px;
+}
+
+.reg_inform .reg_o .r_right {
+	position: absolute
+}
+/*其他信息样式结束*/
+.reg_inform form .sub {
+	text-align: center;
+}
+
+.reg_inform form .sub input { /*提交按钮*/
+	margin-top: 81px;
+	height: 35px;
+	width: 200px;
+	font-size: 24px;
+	border-radius: 5px;
+	border: 1px solid red;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}

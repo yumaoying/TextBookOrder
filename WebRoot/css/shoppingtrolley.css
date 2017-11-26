@@ -1,0 +1,188 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background-image: url(../img/backO.png);
+	background-repeat: repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	position: relative;
+	margin-top: 80px;
+	font-family: "kaiTi";
+}
+
+.bb h3 {
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom:8px;
+}
+
+.bb .sh {
+	overflow-y: scroll;
+	width: 92%;
+	height: 75%;
+	margin-left: 5%;
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	margin-bottom: 3%;
+	margin-top: 0px;
+}
+/*购物车管理开始*/
+.bb table {
+	word-break: break-all;
+	word-wrap: break-word;
+	height: auto;
+	width: 99%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.bb table th {
+	height: 40px;
+}
+
+.bb table td {
+	padding:0px 3px 0px 3px;
+	vertical-align: middle;
+}
+
+.bb table img {
+	vertical-align: middle;
+}
+
+.bb table .shtrZ { /*第一列*/
+	width: 2%;
+}
+
+.bb table .shtrZ input { /*第一列*/
+	width: 15px;
+	height: 15px;
+}
+
+.bb table .shtrO { /*第二列*/
+	width: auto;
+}
+
+.bb table .shtrO img { /*书籍图片*/
+	width: 40px;
+	height: 40px;
+}
+
+.bb table .shtrT { /*第三列*/
+	width: auto;
+}
+
+.bb table .shtrTh { /*第四列*/
+	width: auto;
+}
+
+.bb table .shtrF { /*第五列*/
+	width: auto;
+}
+
+.bb table .shtrFi { /*第六列*/
+	width: auto;
+}
+
+.bb table .shtrS { /*第七列*/
+	width: auto;
+}
+
+.bb table .shtrSev { /*第八列*/
+	width: auto;
+}
+.bb table .shtrE { /*第九列*/
+	width: auto;
+}
+
+.bb table .shtrSev input {
+	width: 50px;
+	height: 20px;
+}
+
+.bb table a {
+	color: black;
+}
+
+.bb table a:hover {
+	color: yellow;
+	font-weight: bold;
+}
+
+.bb form hr {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.bb form .shtr_s { /*立即购买按钮样式*/
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	width: 150px;
+	height: 25px;
+	font-size: 20px;
+}
+
+.bb form .shtrDel { /*删除按钮图片样式*/
+	width: auto;
+	height: auto;
+}
+
+.bb form .shtrDel img { /*删除按钮图片*/
+	width: 25px;
+	height: 25px;
+}

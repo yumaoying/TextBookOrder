@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+@import url("stylesheet.css");
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+	overflow-y: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background: url(../img/backO.png)  repeat;
+//background-repeat: no-repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 2px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	position: relative;
+	margin-top: 100px;
+	font-family: "kaiTi";
+}
+
+.bb .left_nav {
+	width: 21%;
+	position: fixed;
+}
+/*首页左部导航烂*/
+.bb .left_nav ul {
+	margin-left: 21%;
+	width: 160px;
+	height: 900px;
+	margin-right: 0px;
+}
+
+.bb .left_nav ul li {
+	height: 40px;
+	line-height: 40px;
+	font-size: 19px;
+}
+
+.bb .left_nav a { /*左导航栏字体颜色*/
+	color: black;
+}
+/*首页右边主体部分*/
+.main {
+	margin-left: 23%;
+	width: 76%;
+	left: 19%;
+	top: 0px;
+	height: 76%;
+	overflow-y: scroll;
+}
+/*首页右侧主要界面样式开始*/
+.main {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.main p {
+	height: 300px;
+}
+
+/*首页右侧主要页面样式结束*/
+#shoppping { /*购物车按钮*/
+	position: fixed;
+	right: 5px;
+	bottom: 10%;
+	width: 40px;
+	height: 40px;
+	cursor:pointer;
+}

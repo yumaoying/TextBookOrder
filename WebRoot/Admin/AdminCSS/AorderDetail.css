@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+@import url("../../css/stylesheet.css");
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+.sh {
+	width: auto;
+	height: 916px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 300px;
+	margin-top: -22px;
+}
+
+.sh p {
+	/*消息中心四个字样式*/
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: red;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+.sh .shRes {
+	width: 96%;
+	height: 680px;
+	margin-left: 1%;
+	background-color: blanchedalmond;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+.sh .shRes table {
+	width: 100%;
+	text-align: center;
+}
+
+.sh .shRes table th {
+	text-align: center;
+	height: 30px;
+}
+
+.sh .shRes table th a {
+	/*每个消息盒子中的更多消息*/
+	font-weight: bold;
+	color: red;
+}
+
+.sh .shRes table td {
+	height: 40px;
+}
+
+.sh .shRes table .shZ { /*表格第一列*/
+	width: 9%;
+}
+
+.sh .shRes table .shO { /*表格第二列*/
+	width: 9%;
+}
+
+.sh .shRes table .shT { /*表格第三列*/
+	width: 9%;
+}
+
+.sh .shRes table .shTh { /*表格第四列*/
+	width: 9%;
+}
+
+.sh .shRes table .shF { /*表格第五列*/
+	width: 9%;
+}
+
+.sh .shRes table .shFi { /*表格第六列*/
+	width: 9%;
+}
+
+.sh .shRes table .shS { /*表格第七列*/
+	width: 9%;
+}

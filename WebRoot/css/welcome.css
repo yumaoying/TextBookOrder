@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	
+	background: url("../img/welBB.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+}
+
+.wel {
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+#wel_1 {
+	
+	position: relative;
+}
+
+#wel_1 .w_img1 {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 4%;
+	top: 50%;
+	margin-top: -150px;
+}
+
+#wel_1 .info1 {
+	width: 60%;
+	height: 550px;
+	position: absolute;
+	background:#999966;
+	left: 350px;
+	top: 70px;
+	text-align: center;
+}
+
+.info1 p {
+	width: 500px;
+	height: 250px;
+	font-size: 15px;
+}
+
+#wel_1 .btgroup {
+	width: 100%;
+	height: 220px;
+	overflow: hidden;
+}
+
+#wel_1 .btgroup ul {
+	width: 100%;
+	height: 220px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	left: 50%;
+	margin-left: -280px;
+}
+
+#wel_1 .btgroup ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0px;
+	width: 30%;
+	margin-left:10%;
+	margin-right:0;
+}
+
+#wel_1 .btgroup a {
+	display: block;
+	text-decoration: none;
+	background: url(img/indexButtom.png) no-repeat center center;
+	background-size: cover;
+	line-height: 76px;
+}

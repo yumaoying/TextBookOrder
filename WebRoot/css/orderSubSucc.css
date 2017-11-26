@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-family: "kaiTi";
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background-image: url(../img/backO.png);
+	background-repeat: repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+/*.ind .ind_a{
+	background: url(img/indexButtom.png) no-repeat center center;
+	background-size: cover;
+}*/
+/*订单提交成功开始*/
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+
+.bb .dd_ts { /*订单消息提示*/
+	margin-top: 100px;
+	margin-left: 5%;
+	line-height: 20px;
+	font-size:18px;
+	width:90%;
+	margin-bottom:5px;
+}
+
+.bb hr {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 0px;
+}
+
+.bb .dd_no { /*订单号*/
+	color: black;
+	font-weight: bold;
+	font-size: 20px;;
+	height: 25px;
+	margin: 0px;
+	margin-left: 5%;
+	line-height: 25px;
+}
+
+.bb .order {
+	overflow-y: scroll;
+	height: 67%;
+	width: auto;
+}
+
+.bb .order table {
+	margin-top: 0px;
+	word-break: break-all;
+	word-wrap: break-word;
+	border: 1px solid red;
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	font-size: 20px;
+	overflow-y:scroll;
+}
+
+.bb .order table th {
+	height:30px;
+	border-bottom: 1px solid red;
+}
+
+.bb .order table td {
+	vertical-align: middle;
+	padding:0px 3px 0px 3px;
+}
+
+.bb .order table img {
+	vertical-align: middle;
+}
+
+.bb .order table .ddZ { /*第一列*/
+	width: auto;
+}
+
+.bb .order table .ddO { /*第二列*/
+	width: auto;
+}
+
+.bb .order table .ddT { /*第三列*/
+	width: auto;
+}
+
+.bb .order table .ddT img { /*第三列书籍图片*/
+	width: 30px;
+	height: 30px;
+}
+
+.bb .order table .ddTh { /*第四列*/
+	width: auto;
+}
+
+.bb .order table .ddF { /*第五列*/
+	width: auto;
+}
+
+.bb .order table .ddFi { /*第六列*/
+	width: auto;
+}
+
+.bb .order table .ddS { /*第七列*/
+	width: auto;
+}
+/*订单提交成功页面管理样式结束*/

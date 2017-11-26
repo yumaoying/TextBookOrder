@@ -1,0 +1,21 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<html>
+	<head></head>
+	<body>
+		<div class="ind" id="ind_top">
+			<ul>
+					<li><a href="<c:url value='/TextBookServlet?method=findAllStock' />" class="ind_a">首页</a></li>
+				<li><a href="<c:url value='/TextBookServlet?method=findGrooupStock' />" class="ind_a">教材库</a></li>
+		       <li><a href="<c:url value='/shoppingtrolley.jsp'/>" class="ind_a">购物车</a></li>
+		       <li><a href="<c:url value='/UserManage.jsp'/>" class="ind_a">个人信息</a></li>
+				<li><img src="<c:url value='/img/logo.png'/>" value="logo" class="logo"></img></li>
+				<li><a href="<c:url value='/allOrder.jsp'/>">所有订单</a></li>
+				<li><a href="<c:url value='/purchaseTracking.jsp'/>" class="ind_a">订单跟踪</a></li>
+				<li><a href="<c:url value='/login.jsp'/>" class="ind_a">登录</a></li>
+				<li><a href="<c:url value='/UserServlet?method=quit' />" class="ind_a">退出</a></li>
+			</ul>
+		</div> 
+	</body>
+</html>

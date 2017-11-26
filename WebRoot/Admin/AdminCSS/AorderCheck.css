@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.borDet {
+	width: auto;
+	height: 916px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 300px;
+	margin-top: -22px;
+}
+
+.borDet p {
+	/*消息中心四个字样式*/
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: red;
+	margin-top: 90px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	
+}
+
+.borDet hr{
+	margin-top:3px;
+	margin-botttom:3px;
+}
+
+.borDet .orInfo { /*查询条件区域*/
+	height: 600px;
+	width: 1200px;
+	line-height: 28px;
+	margin-left: 1%;
+	overflow-y: scroll;
+	margin-top: 0px;
+}
+
+.borDet .orInfo p {
+	height: auto;
+	width: auto;
+	line-height: 28px;
+	overflow: hidden;
+	margin-top: 8px;
+	overflow: hidden;
+	color:black;
+	font-size:19px;
+}
+
+.borDet .orInfo p input {
+	margin-left: 70px;
+	height: 22px;
+	width: 220px;
+	font-size: 16px;
+}
+
+.borDet .orInfo p select{
+	margin-left: 60px;
+	height: 25px;
+	width: 120px;
+}
+
+.borDet .orInfo .or_sub {
+	height: 28px;
+	width: 120px;
+	margin-left: 7%;
+	margin-top: 5px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}

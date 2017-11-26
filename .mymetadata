@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="TextBookOrder"
+  id="myeclipse.1491744283216"
+  context-root="/TextBookOrder"
+  j2ee-spec="5.0"
+  archive="TextBookOrder.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

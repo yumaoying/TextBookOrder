@@ -1,0 +1,188 @@
+@CHARSET "UTF-8";
+
+@import url("../../css/stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: rgb(232, 221, 205);
+	background: url("../../img/Aback_img1.jpg") fixed center center
+		no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+body, td, th {
+	color: #006;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-crack-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+.bb {
+	top: 0px;
+	padding: 0px;
+	width: auto;
+	height: 1080px;
+	top: 0px;
+}
+/*添加管理员开始*/
+.adAdd {
+	width: 76%;
+	height: 880px;
+	margin-left: 20%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-top: 75px;
+}
+.adAdd h2 {/*添加管理員的h2標題*/
+	border: 1px solid red;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom:0px;
+	margin-top:10px;
+}
+.adAdd h2 font{
+	color:red;
+	font-size:15px;
+	margin-left:10px;
+}
+.adAdd hr { /*注册信息下的一条水平线*/
+	border: 1px dashed red;
+}
+
+.adAdd form {
+	height: 800px;
+}
+
+.adAdd form p {
+	margin:0px auto;
+	padding-bottom:7px;
+	padding-top:7px;
+	margin-left:20%;
+}
+
+.adAdd form input { /*所有文本框的选项*/
+	width: 200px;
+	height: 22px;
+	margin-left:17%;
+}
+
+.adAdd .ad_rig {
+	height:120px;
+	width: 80%;
+	overflow: hidden;
+	margin-left:20%;
+	position:relative;
+}
+
+.ad_rig .l_wrap { /*左边的操作权限*/
+	width: 100px;
+	height:120px;
+	line-height:70px;
+	margin-right: 0px;
+}
+
+.ad_rig .wrap { /*右边的多选按钮*/
+	margin: -110px auto;
+	float: left;
+	width:auto;
+	margin-left:25%;
+	position:absolute;
+}
+
+.A_right {
+	display: none;
+	margin-top: 10px;
+}
+
+.A_right+label {
+	background-color: #FFF;
+	border: 1px solid #C1CACA;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05);
+	padding: 9px;
+	border-radius: 5px;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+}
+
+.A_right+label:active {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px
+		rgba(0, 0, 0, 0.1);
+}
+
+.A_right:checked+label {
+	background-color:#ff66ff;
+	border: 1px solid #ff66ff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+	color: #243441;
+	margin-bottom: 10px;
+}
+
+.A_right:checked+label:after {
+	content: '\2714';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #758794;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 1px 0 0 0;
+	vertical-align: text-top;
+}
+
+.adAdd .admin_s {
+	width: auto;
+	text-align:left;
+}
+
+.adAdd .admin_s input { /*提交按钮样式*/
+	width: 140px;
+	height: 30px;
+	margin-top: 0px;
+	font-size: 20px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../../img/buttonB.jpg);
+	background-repeat: no-repeat;
+	cursor:pointer;
+}

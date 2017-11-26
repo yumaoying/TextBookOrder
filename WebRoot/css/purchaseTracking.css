@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	color: white;
+	background: rgba(0, 32, 99, 0.6);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+body {
+	background: url(../img/backO.png) fixed center center repeat;
+	background-size: 100% 100%;
+	width: 100%;
+}
+
+body, td, th {
+	color: #006;
+}
+
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	position: relative;
+	margin-top: 100px;
+	font-family: "kaiTi";
+}
+
+.purTrack {
+	width: 21%;
+	position: fixed;
+}
+/*左侧的表单开始*/
+.purTrack  form {
+	margin-left: 15%;
+	width: 80%;
+	font-size: 20px;
+	overflow: hidden;
+	margin-top: 0px;
+}
+
+.purTrack h2 { /*订单快速查询方框*/
+	color: red;
+	border: 1px solid black;
+	font-size: 20px;
+	width: 90%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.purTrack p {
+	width: 90%;
+	overflow: hidden;
+	font-size: 17px;
+}
+
+.purTrack .pt_dd { /*订单号输入框*/
+	width: 90%;
+	height: 28px;
+}
+
+.purTrack .pt_s { /*订单号提交按钮*/
+	font-size: 22px;
+	width: 60%;
+	height: 28px;
+	margin-top: 10px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}
+/*左侧的表单结束*/
+/*右侧的主体部分开始*/
+.main {
+	margin-left: 22%;
+	width: 77%;
+	top: 0px;
+	height: 80%;
+	border: 2px solid blue;
+	text-align: center;
+}
+/*状态小圆球*/
+.main .status { 
+	width: 96%;
+	margin: 0px auto;
+	height: 30%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.main .status ul {
+	overflow: hidden;
+	height: 80%;
+	width: auto;
+	margin: 5% auto;
+	padding-left:0px;
+	margin-left:5%;
+}
+
+.main .status ul li {
+	width: auto;
+	height: 100%;
+	float: left;
+}
+
+.main .status .iarr {/*箭头图片*/
+	height: 90px;
+	width: auto;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.main .status .iarr img {
+	height: 70px;
+	width: 20px;
+}
+
+.main .status ul div {
+	border: 1px solid red;
+	height: 80px;
+	width: 80px;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+}
+
+.main .tishi {/*提示消息输入框*/
+	width: 96%;
+	margin-left: 2%;
+	height: 60%;
+	overflow: hidden;
+	margin-top: 3%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	border:1px solid green;
+}
+#shoppping { /*购物车按钮*/
+	position: fixed;
+	right: 5px;
+	bottom: 10%;
+	width: 40px;
+	height: 40px;
+	cursor:pointer;
+}

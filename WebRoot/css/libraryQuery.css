@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+
+@import url("stylesheet.css");
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	overflow: hidden;
+	background: rgba(0, 32, 99, 0.6);
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+::-webkit-scrollbar {
+	/*垂直滚动条的宽和高*/
+	width: 0px;
+	height: 1px;
+}
+
+::-webkit-scrollbar-track-piece {
+	/*修改滚动条的背景和圆角*/
+	background: #abcdef;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #faa;
+	-webkit-border-radius: 6px;
+}
+
+body {
+	background-color: rgba(51, 204, 51, 0.6);
+	background-image: url(../img/backO.png);
+	background-repeat: repeat;
+}
+
+body, td, th {
+	color: #006;
+}
+
+.bb {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-top: 70px;
+	font-family: "kaiTi";
+}
+/*查询条件框开始*/
+.lq_tiaojian {
+	width: 84%;
+	height: 120px;
+	margin-left: 9%;
+	margin-right: 2%;
+	margin-top: 79px;
+	overflow: hidden;
+}
+
+.lq_tiaojian form {
+	
+}
+
+.lq_tiaojian form h3 {
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+.lq_tiaojian form p {
+	margin-left: 30px;
+	height: 34px;
+	width: 100%;
+	line-height: 35px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	vertical-align:center;
+}
+
+.lq_tiaojian form  input {
+	margin-left: 3px;
+	margin-right: 10%;
+	width: 140px;
+	height: 23px;
+	vertical-align:center;
+}
+
+.lq_tiaojian .lq_s {/*查询按钮*/
+	width: 100px;
+	height: 25px;
+	border: 1px solid blue;
+	font-size:17px;
+	border-radius: 5px;
+	background-image: url(../img/buttonB.jpg);
+	background-repeat: no-repeat;
+}
+/*查询条件框样式结束*/
+/*查询结果显示样式框开始*/
+.lq_main {
+	width: 84%;
+	height: 66%;
+	margin-left: 10%;
+	margin-right: 2%;
+	margin-top: 0px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.lq_main table { /*结果显示列表*/
+	overflow-x: hidden;
+	color: black;
+	width: 100%;
+	height:80%;
+	font-size: 15px;
+	word-break: break-all;
+	word-wrap: break-word;
+	border: 1px solid red;
+}
+
+.lq_main table th {
+	font-size: 20px;
+	height: 30px;
+}
+
+.lq_main table td {
+	height: 240px;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.lq_main table .lq_leftZ { /*结果显示列表第一列*/
+	width: 10%;
+}
+
+.lq_main table .lq_leftO { /*结果显示列表第二列*/
+	width: auto;
+}
+
+.lq_main table .lq_leftT { /*结果显示列表第三列*/
+	width: 7%;
+}
+
+.lq_main table .lq_leftTh { /*结果显示列表第四列*/
+	width: 13%;
+}
+
+.lq_main table img {
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+.lq_main .addToShop {
+	
+}
+#shoppping { /*购物车按钮*/
+	position: fixed;
+	right: 5px;
+	bottom: 10%;
+	width: 40px;
+	height: 40px;
+	cursor:pointer;
+}
